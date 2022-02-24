@@ -16,9 +16,12 @@ V8 Project page: https://v8.dev/docs
 Getting the Code
 =============
 
-Checkout [depot tools](http://www.chromium.org/developers/how-tos/install-depot-tools), and run
+Checkout [depot tools](http://www.chromium.org/developers/how-tos/install-depot-tools).
 
-        fetch v8
+Clone this fork, then run
+
+        cd v8
+        gclient sync
 
 This will checkout V8 into the directory `v8` and fetch all of its dependencies.
 To stay up to date, run
